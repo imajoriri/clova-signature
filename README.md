@@ -14,11 +14,11 @@ applicationId(ExtensionID)とヘッダー情報で送られてくる`SignatureCE
 詳しくは[こちら](https://clova-developers.line.me/guide/#/CEK/References/CEK_API.md#RequestMessageValidation)
 
 ```
-$ npm install --save clova-cek-requests
+$ npm install --save clova-signature
 ```
 
 ```js
-var sig = require('clv-signature');
+var sig = require('clova-signature');
 
 var params = {
   keyPath: './signature-public-key.pem',
